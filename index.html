@@ -1,0 +1,8 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Glyph DNF repository</title>
+<h1>Glyph DNF/RPM repository</h1>
+<p>Signed RPM packages for <a href="https://github.com/hamidfzm/glyph">Glyph</a>, the cross-platform markdown viewer.</p>
+<pre>sudo tee /etc/yum.repos.d/glyph.repo &lt; &lt;(curl -fsSL https://glyph-md.github.io/rpm-repo/glyph.repo)
+sudo dnf install glyph</pre>
+<p>Populated automatically by the <code>publish-dnf</code> job in the Glyph release workflow.</p>
